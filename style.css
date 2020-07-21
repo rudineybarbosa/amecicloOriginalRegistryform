@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #92bde7;
+    color: #485e74;
+    line-height: 1.6;
+    font-family: 'Seago UI', Tahoma, Genova, Verdana, sans-serif;
+    padding: 1em;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.brand{
+    text-align: center;
+    color: black;
+}
+
+.wrapper{
+    box-shadow: 0 0 20px rgba(72, 94, 116, 0.7);
+}
+
+.wrapper *{
+    padding: 0.001em;
+}
+
+.company-info{
+    background: #c9e6ff;
+}
+
+.company-info h2, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+}
+
